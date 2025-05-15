@@ -1,0 +1,41 @@
+# SQL Data Cleaning Project
+
+This project demonstrates a complete **data cleaning process using SQL in MySQL Workbench**.
+The dataset used contains information on layoffs across various companies, countries, and industries.
+The goal was to clean and standardize the raw data for better usability in analysis and reporting.
+
+## Objective
+
+To apply SQL-based data cleaning techniques on a real-world dataset and ensure:
+- Removal of duplicates
+- Handling of null and empty values
+- Standardization of inconsistent formats
+- Optimization of data structure
+
+## Key Cleaning Steps
+
+- **Duplicate Removal** using `ROW_NUMBER()` and CTEs
+- **Filling missing values** based on other rows
+- **Cleaning inconsistent entries** (like "Crypto%" → "Crypto")
+- **Converting date strings** to proper SQL `DATE` format
+
+## Tools Used
+
+- MySQL Workbench
+- SQL (CTEs, window functions, DML & DDL)
+
+## How to Run
+
+1. Open `Data_cleaning.sql` in MySQL Workbench
+2. Make sure the original `layoffs` table is present
+3. Run the script to clean and structure the data
+
+## Output
+
+A clean version of the dataset named `layoffs3`, free of duplicates, inconsistencies, and nulls.
+
+## Author
+
+**Bhagyodaya Bamgonda**  
+- [LinkedIn Profile](https://www.linkedin.com/in/bhagyodaya-bamgonda-839491259)  
+- [GitHub](https://github.com/)
