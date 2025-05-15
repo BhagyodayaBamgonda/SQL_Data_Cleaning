@@ -34,6 +34,8 @@ To apply SQL-based data cleaning techniques on a real-world dataset and ensure:
 
 A clean version of the dataset named `layoffs3`, free of duplicates, inconsistencies, and nulls.
 
+This project is based on a tutorial by Alex The Analyst.
+
 ## Author
 
 **Bhagyodaya Bamgonda**  
